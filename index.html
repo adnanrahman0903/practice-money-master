@@ -23,37 +23,37 @@
                     <h4 class="text-center fw-bold">Income</h4> <br>
                     <div>
                         <label class="fw-bolder me-2" for="income">Income:</label>
-                        <input id="income-field" class="labels" type="text">
+                        <input id="income-field" value="30000" class="labels" type="text">
                     </div>
                     <br>
                     <h4 class="text-center fw-bold">Expenses</h4> <br>
                     <div>
                         <label class="fw-bolder me-2" for="income">Food:</label>
-                        <input id="food-field" class="labels" type="text">
+                        <input id="food-field" value="" class="labels" type="text">
                     </div>
                     <br>
                     <div>
                         <label class="fw-bolder me-2" for="income">Rent:</label>
-                        <input id="rent-field" class="labels" type="text">
+                        <input id="rent-field" value="" class="labels" type="text">
                     </div>
                     <br>
                     <div>
                         <label class="fw-bolder me-2" for="income">Clothes:</label>
-                        <input id="clothes-field" class="labels" type="text">
+                        <input id="clothes-field" value="" class="labels" type="text">
                     </div>
                     <br>
                     <div class="text-center">
                         <button id="btn-calculate" class="text-white fw-bold ms-5 mb-4 btn-prime">Calculate</button>
                     </div>
                     <div class="ms-5 mb-4">
-                        <h4 class="text-center fw-bold mb-3">Total Expenses: <span id="total-expense">0</span>
+                        <h4 class="text-center fw-bold mb-3">Total Expenses: <span id="total-expense"></span>
                         </h4>
-                        <h4 class="text-center fw-bold">Balance: <span id="balance">0</span></h4>
+                        <h4 class="text-center fw-bold">Balance: <span id="balance"></span></h4>
                     </div>
                     <div class="d-flex ms-5 ps- justify-content-evenly">
                         <div>
                             <label class="fw-bolder me-2" for="save">Save:</label>
-                            <input id="save-field" class="label-save" type="text">
+                            <input id="save-field" value="" class="label-save" type="text">
                         </div>
                         <div class="d-flex">
                             <p class="pt-2 pe-4">%</p>
@@ -62,8 +62,8 @@
                     </div>
                     <div>
                         <div class="ms-5 mb-4">
-                            <h4 class="text-center fw-bold mb-3">Saving Amount: <span id="saving-amount">0</span></h4>
-                            <h4 class="text-center fw-bold">Remaining Balance: <span id="remaining-balance">0</span>
+                            <h4 class="text-center fw-bold mb-3">Saving Amount: <span id="saving-amount"></span></h4>
+                            <h4 class="text-center fw-bold">Remaining Balance: <span id="remaining-balance"></span>
                             </h4>
                         </div>
                     </div>
@@ -72,6 +72,7 @@
         </div>
     </section>
 
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
